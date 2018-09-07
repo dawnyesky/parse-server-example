@@ -1,5 +1,6 @@
 Parse.serverURL = process.env.SERVER_URL
 
 Parse.Cloud.define('hello', function(req, res) {
-  res.success('Hi');
+  //res.success('Hi');
+  console.log("Hi");
 });
